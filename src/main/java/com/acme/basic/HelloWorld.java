@@ -10,4 +10,16 @@ public class HelloWorld {
     System.out.println("This method is not covered by unit tests");
   }
 
+  void doLoop() {
+    int j;
+    while (true) { // Noncompliant; end condition omitted
+      j++;
+      /*
+      if (j == 100) {
+        break;
+      }
+      */
+    }
+  }
+
 }
