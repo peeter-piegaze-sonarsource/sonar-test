@@ -11,7 +11,7 @@ public class HelloWorld {
   }
 
   void doLoop() {
-    int j;
+    int j = 0;
     while (true) { // Noncompliant; end condition omitted
       j++;
       /*
