@@ -16,6 +16,7 @@
     <sonar.projectKey>peeter-piegaze-sonarsource_sonar-test</sonar.projectKey>
     <sonar.organization>peeter-piegaze-sonarsource</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.branch.name>branch-1</sonar.branch.name>
   </properties>
 
   <dependencies>
