@@ -14,11 +14,11 @@ public class HelloWorld {
     int j = 0;
     while (true) { // Noncompliant; end condition omitted
       j++;
-      /*
+      
       if (j == 100) {
         break;
       }
-      */
+      
     }
   }
 
